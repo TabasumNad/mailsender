@@ -1,6 +1,31 @@
+/* .body{
+  background-image: radial-gradient(circle, #8db5b0, #87b6b9, #84b7c3, #85b6cd, #8cb5d5, #8ab4d4, #89b2d4, #87b1d3, #7bb0c9, #75aebd, #74acb0, #77a8a3);
+} */
+
 .App {
+  background-image: radial-gradient(circle, #8db5b0, #87b6b9, #84b7c3, #85b6cd, #8cb5d5, #8ab4d4, #89b2d4, #87b1d3, #7bb0c9, #75aebd, #74acb0, #77a8a3);
   text-align: center;
+  height: 100vh;
 }
+
+.colr{
+  /* background-image: radial-gradient(circle, #3d8078, #408689, #4c8a99, #5c8ea5, #7092ae, #7091ad, #7191ab, #7190aa, #608b9f, #528591, #497e82, #447772); */
+  background-image: radial-gradient(circle, #6baca4, #67a9ad, #69a6b4, #71a2b8, #7b9db9, #7fa2bf, #82a7c5, #86accb, #81bcd8, #7ecde0, #81dde3, #8cece2);
+}
+
+.lbl{
+  font-weight: 500;
+  font-size: large;
+  color: #091f4b;
+}
+
+.msg{
+  text-align: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(27, 59, 27);
+}
+
 
 .App-logo {
   height: 40vmin;
