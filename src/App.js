@@ -15,8 +15,7 @@ function App() {
      <Navi/>
     <Routes>
       <Route path="/" element={<Home/>} />
-        <Route path="/message" element={<Message/>} />
-        
+        <Route path="/message" element={<Message/>} />    
       </Routes>
      
     

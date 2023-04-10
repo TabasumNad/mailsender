@@ -16,7 +16,7 @@ const navigate= useNavigate();
 
   const sendEmail = async (e) => {
       e.preventDefault();
-
+// Connection to backend
       const res = await fetch("http://localhost:4000/register", {
           method: "POST",
           headers: {
